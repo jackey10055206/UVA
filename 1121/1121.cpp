@@ -6,6 +6,11 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
+	#ifdef DBG
+	freopen("1121.in" , "r" , stdin);
+	freopen("1121.out" , "w" , stdout);
+	#endif
+
 	int n ,s ;
 	while(cin >> n >> s)
 	{
